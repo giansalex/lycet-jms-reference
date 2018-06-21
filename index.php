@@ -17,6 +17,10 @@ $result = $jms->fromClasses([
     \Greenter\Model\Sale\Note::class,
     \Greenter\Model\Summary\Summary::class,
     \Greenter\Model\Voided\Voided::class,
+    \Greenter\Model\Voided\Reversion::class,
+    \Greenter\Model\Perception\Perception::class,
+    \Greenter\Model\Retention\Retention::class,
+    \Greenter\Model\Despatch\Despatch::class,
 ]);
 
 $pathDir = __DIR__.'/serializer';
