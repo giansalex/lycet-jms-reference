@@ -1,0 +1,13 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/giansalex/jms-reference-generator"
+        }
+    ],
+    "require": {
+        "giansalex/jms-generator": "dev-master",
+        "symfony/yaml": "^4.1",
+        "greenter/core": "^1.3"
+    }
+}
