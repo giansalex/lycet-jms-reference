@@ -5,6 +5,7 @@ use Symfony\Component\Yaml\Yaml;
 require 'vendor/autoload.php';
 
 $eof = php_sapi_name() === 'cli' ? PHP_EOL : '<br>';
+$prefix = 'model.';
 function getNameClass($class) {
     $path = explode('\\', $class);
 
@@ -54,7 +55,7 @@ echo 'Writing yaml files'.$eof;
 foreach ($result as $class => $props) {
     $yaml = Yaml::dump([$class => $props], 4);
     $name = getNameClass($class);
-    file_put_contents($pathDir.'/model.'.$name.'.yaml', $yaml);
+    file_put_contents($pathDir.'/'.$prefix.$name.'.yaml', $yaml);
 }
 
 echo 'Completed!'.$eof;
