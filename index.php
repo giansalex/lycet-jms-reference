@@ -44,6 +44,7 @@ $result = $jms->fromClasses([
     \Greenter\Model\Perception\Perception::class,
     \Greenter\Model\Retention\Retention::class,
     \Greenter\Model\Despatch\Despatch::class,
+    \Greenter\Model\Sale\BaseSale::class,
 ]);
 
 $pathDir = __DIR__.'/serializer';
