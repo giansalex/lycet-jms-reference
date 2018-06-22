@@ -5,11 +5,13 @@ use Symfony\Component\Yaml\Yaml;
 require 'vendor/autoload.php';
 
 $eof = php_sapi_name() === 'cli' ? PHP_EOL : '<br>';
-$prefix = 'model.';
-function getNameClass($class) {
-    $path = explode('\\', $class);
+$prefix = 'Greenter\\Model\\';
 
-    return array_pop($path);
+function getFilename($prefix, $class) {
+    $result = str_replace($prefix, '', $class);
+    $path = str_replace('\\', '.', $result);
+
+    return $path.'.yml';
 }
 
 function delDir($path){
@@ -54,8 +56,8 @@ mkdir($pathDir);
 echo 'Writing yaml files'.$eof;
 foreach ($result as $class => $props) {
     $yaml = Yaml::dump([$class => $props], 4);
-    $name = getNameClass($class);
-    file_put_contents($pathDir.'/'.$prefix.$name.'.yaml', $yaml);
+    $filename = getFilename($prefix, $class);
+    file_put_contents($pathDir.'/'.$filename, $yaml);
 }
 
 echo 'Completed!'.$eof;
