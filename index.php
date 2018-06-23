@@ -32,7 +32,8 @@ function delDir($path){
     }
 }
 
-$jms = new \Giansalex\Serializer\JmsGenerator();
+$factory = new \Giansalex\Serializer\PropertyExtractorFactory();
+$jms = new \Giansalex\Serializer\JmsGenerator($factory->getExtractor());
 
 echo 'Convert classes'.$eof;
 $result = $jms->fromClasses([
