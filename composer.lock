@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "513bf06caef573d48c79415049e09de1",
+    "content-hash": "4aecb1d63fd9795051587784fd8a9eda",
     "packages": [
         {
             "name": "giansalex/jms-generator",
@@ -63,16 +63,16 @@
         },
         {
             "name": "greenter/core",
-            "version": "v1.3.1",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giansalex/greenter-core.git",
-                "reference": "21b00efc6d6d640c0f90868b1d655ad9c18b8de1"
+                "reference": "536ba0c824f654edc46385cc3b2ce369bc44d165"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giansalex/greenter-core/zipball/21b00efc6d6d640c0f90868b1d655ad9c18b8de1",
-                "reference": "21b00efc6d6d640c0f90868b1d655ad9c18b8de1",
+                "url": "https://api.github.com/repos/giansalex/greenter-core/zipball/536ba0c824f654edc46385cc3b2ce369bc44d165",
+                "reference": "536ba0c824f654edc46385cc3b2ce369bc44d165",
                 "shasum": ""
             },
             "require": {
@@ -101,7 +101,7 @@
                 "greenter",
                 "sunat"
             ],
-            "time": "2018-03-27T14:22:32+00:00"
+            "time": "2018-10-14T19:09:59+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
