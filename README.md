@@ -2,7 +2,8 @@
 Require php `>= 7.1`  
 
 Run
-```sh
+```bash
 php index.php
 ```
-Generara los archivos en el directorio `/serializer``..
+
+Los archivos generados se guardan en el directorio `/serializer`.
