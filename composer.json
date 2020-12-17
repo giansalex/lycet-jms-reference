@@ -7,7 +7,7 @@
     ],
     "require": {
         "giansalex/jms-generator": "dev-master",
-        "symfony/yaml": "^4.1",
-        "greenter/core": "^2.1"
+        "symfony/yaml": "^5.1",
+        "greenter/core": "^4.1"
     }
 }
