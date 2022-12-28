@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "656c1dbd09b47aa65e3cda5467d21c3c",
+    "content-hash": "af3256c2cdbab14d11fde1ba4a0aa8b2",
     "packages": [
         {
             "name": "giansalex/jms-generator",
@@ -65,25 +65,26 @@
         },
         {
             "name": "greenter/core",
-            "version": "4.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thegreenter/core.git",
-                "reference": "4be73c9d9eb4dfdcd05bc49fef3c6cfd760ee9aa"
+                "reference": "b218bcf3557320f1c6a6bfdfa825fed784c04dc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thegreenter/core/zipball/4be73c9d9eb4dfdcd05bc49fef3c6cfd760ee9aa",
-                "reference": "4be73c9d9eb4dfdcd05bc49fef3c6cfd760ee9aa",
+                "url": "https://api.github.com/repos/thegreenter/core/zipball/b218bcf3557320f1c6a6bfdfa825fed784c04dc8",
+                "reference": "b218bcf3557320f1c6a6bfdfa825fed784c04dc8",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -110,9 +111,9 @@
             ],
             "support": {
                 "forum": "https://community.greenter.dev/",
-                "source": "https://github.com/thegreenter/core/tree/4.2.0"
+                "source": "https://github.com/thegreenter/core/tree/v4.4.0-beta.1"
             },
-            "time": "2021-02-06T14:55:08+00:00"
+            "time": "2022-12-23T18:14:56+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -1050,7 +1051,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "giansalex/jms-generator": 20
     },
