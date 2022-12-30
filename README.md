@@ -1,5 +1,5 @@
 # Lycet JMS Reference
-Require php `>= 7.1`  
+Require php `>= 7.4`  
 
 Run
 ```bash
