@@ -5,10 +5,12 @@
             "url": "https://github.com/giansalex/jms-reference-generator"
         }
     ],
+    "prefer-stable": true,
     "minimum-stability": "dev",
     "require": {
+        "php": "^7.4",
         "giansalex/jms-generator": "dev-master",
-        "symfony/yaml": "^5.1",
+        "symfony/yaml": "^5.2",
         "greenter/core": "^4.4"
     }
 }
